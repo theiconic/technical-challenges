@@ -2,6 +2,8 @@
 
 Task description and data for candidates applying to be a Data Scientist at [The Iconic](https://theiconic.com.au).
 
+While we love seeing your work in a repository we'd prefer if you didn't fork this one. Feel free to add `@ilikedata` as a collaborator to private repositories.
+
 ## Background
 
 Many of our customers at THE ICONIC - similar to most online shoppers - only provide the bare minimum of information needed when signing up as a new user or making a transaction on the site (i.e credit card details, delivery address etc). They do not provide their age, gender or any other personal details when they register as a new customer or they will simply purchase their items as a ‘Guest’ user.
