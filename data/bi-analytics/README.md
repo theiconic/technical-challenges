@@ -20,11 +20,11 @@ There are four stages to this task:
 
 1. How many orders have we received in each state?
 2. What percentage of orders arrive after the predicted date?
-2. What percentage of orders arrive more than 2 days early?
-3. Which customer regions should we focus on if we wanted to improve `Algorithm 2`?
-4. Create a score to rank our sellers from best to worst.
+3. What percentage of orders arrive more than 2 days early?
+4. For users who had an order arrive late, how many have made a subsequent order?
+5. Create a score to rank our sellers from best to worst
 
-**Stage 3** : *EVALUATE* - Evaluate which of our algorithms is best.
+**Stage 3** : *EVALUATE* - Evaluate which of our algorithms performed best in the A/B test.
 
 **Stage 4** : *DELIVER* - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 
@@ -59,7 +59,7 @@ The dataset comes from a simulated internal database. While the data is syntheti
 | order_id | string | ID of the order |
 | supplier_id | string | ID of the marketplace seller |
 | carrier_id | string | ID of the carrier used to ship the items |
-| algorithm | string | Version of the algorithm used to predict delivery time |
+| algorithm | string | Version of the algorithm used in an A/B test to predict delivery time |
 | customer_region | string | Postcode mapped to an Australia Post shipping region |
 | customer_state | string | Customer Region mapped to State |
 | ordered_at_date | datetime | The date/time the order was placed |
