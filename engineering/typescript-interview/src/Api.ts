@@ -27,7 +27,7 @@ const defaultVideoPreview: VideoPreview = {
 };
 
 export default class ProductApi {
-  constructor(private client: AxiosInstance) {}
+  constructor(private readonly client: AxiosInstance) {}
 
   public async getProducts(params: ProductParams): Promise<Product[]> {
     const products = await this.client.get('/catalog/products', { params });
