@@ -1,4 +1,4 @@
-# BI & Analytics Task
+# Analytics Task
 
 Task description and data for candidates applying to work as an analyst at [THE ICONIC](https://www.theiconic.com.au).
 
