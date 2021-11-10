@@ -16,16 +16,16 @@ There are three stages to this task:
 
 **Stage 2** : *ANALYSE* - Write SQL queries to answer the following questions using the data from *Stage 1*.
 
-1. How many new customer to we have in each state?
+1. How many new customers do we have in each state?
 2. How many customers that are acquired (first order) via the Organic Search channel make subsequent orders?
-3. How many customer shop in multiple categories vs two categories vs one category?
+3. How many customer shop in single vs 2 categories vs 3+ categories?
 
 **Stage 3** : *VISUALISE & DELIVER* - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 
 - SQL queries and answers from *Stage 2*
 - Are customers that are acquired via a particular channel more likely to make a second purchase?
 - If you were developing a promotion to try and prevent a customer churning, when would be the best time to send? 30/60/90 or other days after their previous order.
-- Growing the number of customers that shop across multiple categories is a key business priority for us. What  actionable insights can you derive from the profile of customers that are multi category shoppers vs single category shoppers?
+- Growing the number of customers that shop across multiple categories is a key business priority for us. What  actionable insights can you derive from the profile of customers that are multi category shoppers (2 or more categories) vs single category shoppers?
 - For customers that order 10+ times per year, is there a trend in days between orders?
 - Summarise your findings in an executive summary.
 
