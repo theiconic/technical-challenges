@@ -24,9 +24,8 @@ There are three stages to this task:
 
 - SQL queries and answers from *Stage 2*
 - Are customers that are acquired via a particular channel more likely to make a second purchase?
-- If you were developing a promotion to try and prevent a customer churning, when would be the best time to send? 30/60/90 or other days after their previous order.
 - Growing the number of customers that shop across multiple categories is a key business priority for us. What  actionable insights can you derive from the profile of customers that are multi category shoppers (2 or more categories) vs single category shoppers?
-- For customers that order 10+ times per year, is there a trend in days between orders?
+- For customers that order 3+ times per year, is there a trend in days between orders?
 - Summarise your findings in an executive summary.
 
 ## Evaluation
