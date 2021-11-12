@@ -4,9 +4,7 @@ Task description and data for candidates applying to work as an analyst at [THE 
 
 ## Background
 
-At THE ICONIC, customer experience is at the centre of everything we do and ensuring that our customers know when they will receive their packages is of the utmost importance.
-
-...
+At THE ICONIC, customer experience is at the centre of everything we do. Thus, we are opsessed with understanding our customers better. This challenge was created so we can undersand how you solve problems and get to insights.
 
 ### Task
 
@@ -24,8 +22,8 @@ There are three stages to this task:
 
 - SQL queries and answers from *Stage 2*
 - Are customers that are acquired via a particular channel more likely to make a second purchase?
-- Growing the number of customers that shop across multiple categories is a key business priority for us. What  actionable insights can you derive from the profile of customers that are multi category shoppers (2 or more categories) vs single category shoppers?
 - For customers that order 3+ times per year, is there a trend in days between orders?
+- Can you find any interesting insights to share?
 - Summarise your findings in an executive summary.
 
 ## Evaluation
