@@ -26,10 +26,10 @@ SQL queries and answers from Stage 2
 
 We are looking for the following:
 Stages:
-You write good SQL.
-You create a report/dashboard which highlights important information and helps us understand your analysis.
-You provide recommendations with sound reasoning.
-You summarise your findings in an executive summary.
+- You write good SQL.
+- You create a report/dashboard which highlights important information and helps us understand your analysis.
+- You provide recommendations with sound reasoning.
+- You summarise your findings in an executive summary.
 
 ## Data
 
