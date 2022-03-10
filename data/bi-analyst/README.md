@@ -8,7 +8,7 @@ At THE ICONIC, customer experience is at the centre of everything we do. Thus, w
 ### Task
 
 There are three stages to this task:
-**Stage 1** : *GET THE DATA* - Unhash the data (`/data/sample-data/bia_data.csv`) using the secret key provided by us, extract it, most importantly put it in a form you can use for the remainder of the tasks in this challenge.
+**Stage 1** : *GET THE DATA* - Download the file (`/data/sample-data/bia_data.csv`), most importantly put it in a form you can use for the remainder of the tasks in this challenge.
 
 **Stage 2** : ANALYSE - Write SQL queries to answer the following questions using the data from Stage 1.
 - Which store has the highest sales in Q3 (Jul-Sep) 2011, excluding holiday weeks?
