@@ -11,9 +11,9 @@ There are three stages to this task:
 **Stage 1** : *GET THE DATA* - Unhash the data (`/data/sample-data/bia_data.csv`) using the secret key provided by us, extract it, most importantly put it in a form you can use for the remainder of the tasks in this challenge.
 
 **Stage 2** : ANALYSE - Write SQL queries to answer the following questions using the data from Stage 1.
-Which store has the highest sales in Q3 (Jul-Sep) 2011, excluding holiday weeks?
-During the week when the fuel price was lowest in a store area, which store overall, registered the highest sale?
-Across the entire dataset, which store (and in which week) witnessed the highest sales growth over their own sales in the last week?
+- Which store has the highest sales in Q3 (Jul-Sep) 2011, excluding holiday weeks?
+- During the week when the fuel price was lowest in a store area, which store overall, registered the highest sale?
+- Across the entire dataset, which store (and in which week) witnessed the highest sales growth over their own sales in the last week?
 
 **Stage 3** : VISUALISE & DELIVER - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 SQL queries and answers from Stage 2
