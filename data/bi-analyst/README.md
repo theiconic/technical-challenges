@@ -14,10 +14,12 @@ There are three stages to this task:
 - Which store has the highest sales in Q3 (Jul-Sep) 2011, excluding holiday weeks?
 - During the week when the fuel price was lowest in a store area, which store overall, registered the highest sale?
 - Across the entire dataset, which store (and in which week) witnessed the highest sales growth over their own sales in the last week?
+- Which store has seen an increase/decrease in unemployment index over the years?
 
 **Stage 3** : VISUALISE & DELIVER - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 SQL queries and answers from Stage 2
 - Is there a trend between the weekly fuel prices and store sales in that area?
+- does holiday week have an impact on fuel prices across the stores?
 - Which week has the maximum number of stores registering positive growth compared to last week?
 - Can you find any interesting insights to share?
 - Summarise your findings in an executive summary.
