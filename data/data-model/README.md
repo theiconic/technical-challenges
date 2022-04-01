@@ -24,7 +24,7 @@ There are four stages to this task:
 4. How many orders with more than 1 item were delivered late?
 5. What percentage of orders delivered on time had more than 1 item?
 6. What is the gender of the customer who has purchased the most items?
-6. For delivered orders, what is the total amount spent by customers who had a longer than average delivery time for their region?
+7. For delivered orders, what is the total amount spent by customers who had a longer than average delivery time for their region?
 
 **Stage 3** : *DELIVER* - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 
