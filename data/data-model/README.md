@@ -1,4 +1,4 @@
-# BI Task
+# Data Modelling Task
 
 Task description and data for candidates applying to work within the Data team at [THE ICONIC](https://www.theiconic.com.au).
 
