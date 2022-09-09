@@ -70,7 +70,7 @@ There are four stages to this task:
 
 1. Which event has low transition rate and can you let us know the transition rate across each of the events?
 2. What is the percentage of Cart abandonment across the store, where Cart abandonment consists of events_type (Added to cart and checkout started) but orders are not completed?
-3. Find the average duration between checkout started and order completed and do you find any anamoly in the data?
+3. Find the average duration between checkout started and order completed and do you find any anomaly in the data?
 
 **Data Visualisation** : *Visualise the Data* 
 
@@ -121,7 +121,7 @@ While the data is synthetic, please consider it as being as close to reality as 
 | description | STRING | description of the product |
 | price | FLOAT | price of the product |
 | image | STRING | image of the product |
-| gender_affinity | STRING | gener affinity of the product |
+| gender_affinity | STRING | gender affinity of the product |
 | current_stock | INTEGER | current stock availability of the product. Is always a positive value |
 
 - **Interactions.csv**
@@ -138,6 +138,6 @@ While the data is synthetic, please consider it as being as close to reality as 
 - Revenue - It refers to the amount obtained from a product when an order completed event takes place
 - Conversion rate - It is the sum of OrderCompleted events overs the Total_Events taken place
 - Transition rate - It is the % of users moving from one event to the other. i.e. ProductViewed--> ProductAdded , ProductAdded --> CartViewed, CartViewed --> CheckoutStarted, CheckoutStarted -->OrderCompleted
-- Cart abandonment - It refers to the number of users who have performed of Added to cart and checkout started event but orders are not completed
+- Cart abandonment - It refers to the number of users who have performed Add to cart and checkout started event but orders are not completed
 
 All the best! Blow us away with your work!
