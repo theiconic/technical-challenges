@@ -132,8 +132,7 @@ The dataset comes from a simulated internal database. While the data is syntheti
 |-|-|-|
 | Item_ID | STRING | Unique ID of the product and is a not null column |
 | USer_ID | INTEGER | Unique ID of the user and is a not null column |
-| Event_Type | STRING | Different events such as ProductViewed,ProductAdded,CartViewed,CheckoutStarted,OrderCompleted
-happening within the website |
+| Event_Type | STRING | Different events such as ProductViewed,ProductAdded,CartViewed,CheckoutStarted,OrderCompleted happening within the website |
 | Timestamp | INTEGER | Timestamp during which the events have occured |
 | Discount | BOOLEAN | Discount if any has been applied on the orders completed |
 
