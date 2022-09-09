@@ -4,7 +4,7 @@ Task description and data for candidates applying to work as a BI Specialist at 
 
 ## Background
 
-At THE ICONIC, customer experience is at the centre of everything we do. Thus, we are opsessed with understanding our customers better. This challenge was created so we can undersand how you solve problems and get to insights.
+At THE ICONIC, customer experience is at the centre of everything we do. Thus, we are obsessed with understanding our customers better. This challenge was created so we can undersand how you solve problems and get to insights.
 
 ### Task
 
@@ -68,11 +68,9 @@ There are four stages to this task:
 
 **Data Analysis** : *Analyse the Data* - Based on the above tables created can you answer the following questions.
 
-1. What is the most popular category based on the total orders received and revenue obtained?
-2. What is the overall conversion rate for the store?
-3. Which event has low transition rate and can you let us know the transition rate across each of the events?
-4. What is the percentage of Cart abandonment across the store, where Cart abandonment consists of events_type(Added to cart and checkout started) but orders are not completed?
-5. Find the Avg duration between checkout started and order completed and do you find any anamoly in the data?
+1. Which event has low transition rate and can you let us know the transition rate across each of the events?
+2. What is the percentage of Cart abandonment across the store, where Cart abandonment consists of events_type(Added to cart and checkout started) but orders are not completed?
+3. Find the average duration between checkout started and order completed and do you find any anamoly in the data?
 
 **Data Visualisation** : *Visualise the Data* 
 
