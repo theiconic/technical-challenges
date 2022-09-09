@@ -14,7 +14,7 @@ There are four stages to this task:
 
 **Data Cleaning** : *Cleanse* - Write SQL queries to answer the following questions using the data.
 
-1. Can you identify some data quality issues within all the three sources that have been provided and remidy before any further transformation or analysis is done.
+1. Can you identify some data quality issues within all the three sources that have been provided and cleaned before any further transformation or analysis is done.
 2. Can you document the issues and assumptions made. 
 
 **Data Transformation** : *Transform* - Transform the raw data provided in order to create staging and summary tables as shown below.
@@ -25,10 +25,10 @@ There are four stages to this task:
 |-|-|-|
 | user_id | INTEGER | Unique_Id of the user. It is the Primary Key of the table and only contains NOT NULL values |
 | username | STRING | Username for the user |
-| email | STRING | emai_id of the user |
+| email | STRING | email_id of the user |
 | first_name | STRING | first name of the user |
 | last_name | STRING | last name of the user |
-| address1 | STRING | address1 information of the user - obtained from the addresses column in the users.csv file |
+| address1 | STRING | address information of the user - obtained from the addresses column in the users.csv file |
 | country | STRING | country information of the user - obtained from the addresses column in the users.csv file |
 | city | STRING | city information of the user - obtained from the addresses column in the users.csv file |
 | state | STRING | state information of the user - obtained from the addresses column in the users.csv file |
