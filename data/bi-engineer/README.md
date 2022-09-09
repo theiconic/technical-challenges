@@ -92,7 +92,7 @@ The data can be found in the `/data/sample-data/bi-engineer-data.zip` file.
 
 The dataset is provided in CSV format. It is compressed and super encrypted using the password provided to you.
 
-The dataset comes from a simulated internal database. While the data is synthetic, please consider it as being as close to reality as possible.
+While the data is synthetic, please consider it as being as close to reality as possible.
 
 - **Users.csv**
 
