@@ -4,7 +4,7 @@ Task description and data for candidates applying to work as an analyst at [THE 
 
 ## Background
 
-At THE ICONIC, customer experience is at the centre of everything we do. Thus, we are opsessed with understanding our customers better. This challenge was created so we can undersand how you solve problems and get to insights.
+At THE ICONIC, customer experience is at the centre of everything we do. Thus, we are obsessed with understanding our customers better. This challenge was created so we can undersand how you solve problems and get to insights.
 
 ### Task
 
