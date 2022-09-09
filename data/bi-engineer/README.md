@@ -69,12 +69,12 @@ There are four stages to this task:
 **Data Analysis** : *Analyse the Data* - Based on the above tables created can you answer the following questions.
 
 1. Which event has low transition rate and can you let us know the transition rate across each of the events?
-2. What is the percentage of Cart abandonment across the store, where Cart abandonment consists of events_type(Added to cart and checkout started) but orders are not completed?
+2. What is the percentage of Cart abandonment across the store, where Cart abandonment consists of events_type (Added to cart and checkout started) but orders are not completed?
 3. Find the average duration between checkout started and order completed and do you find any anamoly in the data?
 
 **Data Visualisation** : *Visualise the Data* 
 
-1. Create a dashboard to visualise the data and provide us with at least 3 interesting insights that you can draw from this data
+Create a dashboard to visualise the data and provide us with at least 3 interesting insights that you can draw from this data
 
 
 ## Evaluation
