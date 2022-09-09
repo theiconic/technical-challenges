@@ -17,13 +17,13 @@ There are four stages to this task:
 1. Can you identify some data quality issues within all the three sources that have been provided and remidy before any further transformation or analysis is done.
 2. Can you document the issues and assumptions made. 
 
-**Data Transformation** : *Transform* - Transform the data provided to below in order to create staging and summary tables as shown below.
+**Data Transformation** : *Transform* - Transform the raw data provided in order to create staging and summary tables as shown below.
 
 - Create a *User Journey* table with the following information
 
 | Column_Name | Type | Description |
 |-|-|-|
-| User_id | INTEGER | Unique_Id of the user. It is the Primary Key of the table and only contains NOT NULL values |
+| user_id | INTEGER | Unique_Id of the user. It is the Primary Key of the table and only contains NOT NULL values |
 | username | STRING | Username for the user |
 | email | STRING | emai_id of the user |
 | first_name | STRING | first name of the user |
@@ -33,38 +33,38 @@ There are four stages to this task:
 | city | STRING | city information of the user - obtained from the addresses column in the users.csv file |
 | state | STRING | state information of the user - obtained from the addresses column in the users.csv file |
 | zipcode | STRING | Zipcode information of the user - obtained from the addresses column in the users.csv file |
-| total orders | INTEGER | Total orders placed by the user |
+| total_orders | INTEGER | Total orders placed by the user |
 
 - Create a *Transaction Journey* table with the following information
 
 | Column_Name | Type | Description |
 |-|-|-|
-| Item_Id | STRING | Unique ID of the product. Not NULL column |
-| User_ID | INTEGER | Unique ID of the User. Not NULL column |
-| Product_Name | STRING | Name of the product |
-| Product_Category | STRING | Category to which the product belongs to |
-| ProductViewed | DATE TIME | Date time when the product was viewed by the user |
-| ProductAdded | DATE TIME | Date time when the product was added by the user |
-| CartViewed | DATE TIME | Date time when the cart was viewed by the user |
-| CheckoutStarted | DATE TIME | Date time when the checkout was started by the user |
-| OrderCompleted | DATE TIME | Date time when the order was completed by the user |
-| Discount | BOOLEAN | True or False column to indicate if a discount was applied to the product or not  |
-| Price | FLOAT | price of the product |
+| item_id | STRING | Unique ID of the product. Not NULL column |
+| user_id | INTEGER | Unique ID of the User. Not NULL column |
+| product_name | STRING | Name of the product |
+| product_category | STRING | Category to which the product belongs to |
+| product_viewed | DATE TIME | Date time when the product was viewed by the user |
+| product_added | DATE TIME | Date time when the product was added by the user |
+| cart_viewed | DATE TIME | Date time when the cart was viewed by the user |
+| checkout_started | DATE TIME | Date time when the checkout was started by the user |
+| order_completed | DATE TIME | Date time when the order was completed by the user |
+| discount | BOOLEAN | True or False column to indicate if a discount was applied to the product or not  |
+| price | FLOAT | price of the product |
 
 - Create a *Summary* table with the following information
 
 | Column_Name | Type | Description |
 |-|-|-|
-| Product_Category | STRING | Category to which the product belongs to |
-| Total_ProductsViewed | INTEGER | Total product view events which happened within the category |
-| Total_ProductsAdded | INTEGER | Total product add events which happened within the category |
-| Total_CartViewed | INTEGER | Total cart view events which happened within the category |
-| Total_CheckoutStarted | INTEGER | Total checkout start events which happened within the category |
-| Total_OrdersCompleted | INTEGER | Total order completed events which happened within the category |
-| Total_Interactions | INTEGER | Total Interactions which happened within the category  |
-| Total_Orders | INTEGER | Total Orders created for the category |
-| Total_Customers_Ordered | INTEGER | Total customers who ordered products of the particular category |
-| Total_Revenue | FLOAT | Total revenue obtained for the particular category. |
+| Product_category | STRING | Category to which the product belongs to |
+| total_products_viewed | INTEGER | Total product view events which happened within the category |
+| total_products_added | INTEGER | Total product add events which happened within the category |
+| total_cart_viewed | INTEGER | Total cart view events which happened within the category |
+| total_checkout_started | INTEGER | Total checkout start events which happened within the category |
+| total_orders_completed | INTEGER | Total order completed events which happened within the category |
+| total_interactions | INTEGER | Total Interactions which happened within the category  |
+| total_orders | INTEGER | Total Orders created for the category |
+| total_customers_ordered | INTEGER | Total customers who ordered products of the particular category |
+| total_revenue | FLOAT | Total revenue obtained for the particular category. |
 
 **Data Analysis** : *Analyse the Data* - Based on the above tables created can you answer the following questions.
 
@@ -131,7 +131,7 @@ The dataset comes from a simulated internal database. While the data is syntheti
 | Column | Type | Description |
 |-|-|-|
 | Item_ID | STRING | Unique ID of the product and is a not null column |
-| USer_ID | INTEGER | Unique ID of the user and is a not null column |
+| User_ID | INTEGER | Unique ID of the user and is a not null column |
 | Event_Type | STRING | Different events such as ProductViewed,ProductAdded,CartViewed,CheckoutStarted,OrderCompleted happening within the website |
 | Timestamp | INTEGER | Timestamp during which the events have occured |
 | Discount | BOOLEAN | Discount if any has been applied on the orders completed |
