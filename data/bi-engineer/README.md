@@ -14,10 +14,10 @@ There are four stages to this task:
 
 **Data Cleaning** : *Cleanse* - Write SQL queries to answer the following questions using the data.
 
-1. Can you identify some data quality issues within all the three sources that have been provided and clean them up before you do further analysis on the same.
-2. Can you list down the steps taken to cleanse the data
+1. Can you identify some data quality issues within all the three sources that have been provided and remidy before any further transformation or analysis is done.
+2. Can you document the issues and assumptions made. 
 
-**Data Transformation** : *Transform the Data* - Transform the data provided to below in order to create staging and summary tables as shown below.
+**Data Transformation** : *Transform* - Transform the data provided to below in order to create staging and summary tables as shown below.
 
 - Create a *User Journey* table with the following information
 
