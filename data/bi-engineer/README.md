@@ -55,7 +55,7 @@ There are four stages to this task:
 
 | Column_Name | Type | Description |
 |-|-|-|
-| Product_category | STRING | Category to which the product belongs to |
+| product_category | STRING | Category to which the product belongs to |
 | total_products_viewed | INTEGER | Total product view events which happened within the category |
 | total_products_added | INTEGER | Total product add events which happened within the category |
 | total_cart_viewed | INTEGER | Total cart view events which happened within the category |
