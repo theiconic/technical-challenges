@@ -1,6 +1,6 @@
 # BI Engineer Task
 
-Task description and data for candidates applying to work as a BI Engineer at [THE ICONIC](https://www.theiconic.com.au).
+Task description and data for candidates applying to work as a BI Specialist at [THE ICONIC](https://www.theiconic.com.au).
 
 ## Background
 
