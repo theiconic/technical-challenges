@@ -82,9 +82,9 @@ Create a dashboard to visualise the data and provide us with at least 3 interest
 We are looking for the following:
 
 Stages:
-1. You write good SQL and are proficient in transformation and analysis
-2. You create a report/dashboard which highlights important information and helps us understand your analysis.
-3. You summarise your findings in an executive summary.
+1. You write good SQL and are proficient in transformation and analysis.
+2. Easy to understand and repeat your code. 
+3. You create a report/dashboard which highlights important information and helps us understand your insights.
 
 ## Data
 
