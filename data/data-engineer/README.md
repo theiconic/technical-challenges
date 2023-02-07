@@ -2,7 +2,7 @@
 
 Task description and data for candidates applying to be a Data Engineer at [The Iconic](https://www.theiconic.com.au).
 
-While we love seeing your work in a repository we'd prefer if you didn't fork this one. Feel free to add `@ilikedata` as a collaborator to private repositories.
+While we love seeing your work in a repository we'd prefer if you didn't fork this one. Feel free to add `@adam-iconic` as a collaborator to private repositories.
 
 ## Background
 
