@@ -20,8 +20,8 @@ There are three stages to this task:
 **Stage 3** : VISUALISE & DELIVER - Please deliver the following. We strongly believe in reproducibility and expect to be able to reproduce your results from what you deliver.
 SQL queries and answers from Stage 2
 - Does holiday week have an impact on fuel prices across the stores?
-- Is there a correlation between the weekly fuel prices and store sales? 
 - Which week has the maximum number of stores registering positive growth week on week?
+- Are there any correlations on the data that you observe? 
 - Can you find any interesting insights to share?
 - Summarise your findings in an executive summary.
 
