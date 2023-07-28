@@ -39,8 +39,9 @@ https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console#
 ![image](https://github.com/theiconic/technical-challenges/assets/35489107/790356cd-3dda-478f-8aa5-42cea5a8a8c7)
 
 5) Finally to answer the below task questions use the following datasets within the project where a refers to GA4 and b refers to UA360 sample dataset
-    a) bigquery-public-data.ga4_obfuscated_sample_ecommerce
-    b) bigquery-public-data.google_analytics_sample
+
+a) bigquery-public-data.ga4_obfuscated_sample_ecommerce
+b) bigquery-public-data.google_analytics_sample
         
 
 Let us know incase you are not able to follow the steps.
