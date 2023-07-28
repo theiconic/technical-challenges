@@ -28,15 +28,19 @@ https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console#
 
 **Step 3** : 1) You can also add the public datasets by clicking on Add in the explore panel as shown below
 ![image](https://github.com/theiconic/technical-challenges/assets/35489107/13a7a687-108a-4294-a990-672106a74b39)
-             2) Now click on public datasets as shown below and search for 360 in the marketplace
+             
+2) Now click on public datasets as shown below and search for 360 in the marketplace
 ![image](https://github.com/theiconic/technical-challenges/assets/35489107/1c619e51-88ef-416d-86de-bac66caea0f6)
-             3) You should now be able to view GA360 dataset as shown below
+
+3) You should now be able to view GA360 dataset as shown below
 ![image](https://github.com/theiconic/technical-challenges/assets/35489107/988fd52f-f7f7-44cf-80f1-d126dcb4bf09)
-             4) When you click on view dataset it should add the bigquery-public-data project as shown below
+
+4) When you click on view dataset it should add the bigquery-public-data project as shown below
 ![image](https://github.com/theiconic/technical-challenges/assets/35489107/790356cd-3dda-478f-8aa5-42cea5a8a8c7)
-             5) Finally to answer the below task questions use the following datasets within the project where a refers to GA4 and b refers to UA360 sample dataset
-                  a) bigquery-public-data.ga4_obfuscated_sample_ecommerce
-                  b) bigquery-public-data.google_analytics_sample
+
+5) Finally to answer the below task questions use the following datasets within the project where a refers to GA4 and b refers to UA360 sample dataset
+    a) bigquery-public-data.ga4_obfuscated_sample_ecommerce
+    b) bigquery-public-data.google_analytics_sample
         
 
 Let us know incase you are not able to follow the steps.
