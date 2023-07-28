@@ -40,8 +40,9 @@ https://cloud.google.com/bigquery/docs/quickstarts/query-public-dataset-console#
 
 5) Finally to answer the below task questions use the following datasets within the project where a refers to GA4 and b refers to UA360 sample dataset
 
-a) bigquery-public-data.ga4_obfuscated_sample_ecommerce
-b) bigquery-public-data.google_analytics_sample
+**a) bigquery-public-data.ga4_obfuscated_sample_ecommerce**
+
+**b) bigquery-public-data.google_analytics_sample**
         
 
 Let us know incase you are not able to follow the steps.
@@ -53,16 +54,27 @@ There are three stages to this task:
 Calculate the following metrics for GA4 & UA360 for any one day in the dataset.
 
   1.Users
+  
   2.New Users
+  
   3.Sessions
+  
   4.Engaged Sessions per User
+  
   5.Average Session Duration
+  
   6.Sessions Conversion Rate
+  
   7.Bounce Rate
+  
   8.Event Count
+  
   9.Total Users
+  
   10.Engaged Sessions
+  
   11.Engagement Rate
+  
   12.Average Engagement Time
 
 **Stage 2** : *VISUALISE* - Can you draw some useful insights from the dataset in any of the visualisation tools available (Looker studio, excel, g-sheet etc.,).
