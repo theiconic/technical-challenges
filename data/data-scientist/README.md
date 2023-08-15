@@ -2,7 +2,7 @@
 
 Task description and data for candidates applying to be a Data Scientist at [The Iconic](https://theiconic.com.au).
 
-While we love seeing your work in a repository we'd prefer if you didn't fork this one. 
+While we love seeing your work **in a repository** we'd prefer if you **didn't fork** this one. 
 
 ## Background
 
@@ -33,32 +33,30 @@ Write SQL queries to answer the following questions:
 
 *Note: At this stage it is ok to ignore the underlying errors in the data*
 
-1. What was the total revenue to the nearest dollar for customers who have paid by credit card?
-2. What percentage of customers who have purchased female items have paid by credit card?
-3. What was the average revenue for customers who used either iOS, Android or Desktop?
-4. We want to run an email campaign promoting a new mens luxury brand. Can you provide a list of customers we should send to?
+1. What percentage of customers who have purchased female items have paid by credit card?
+2. We want to run an email campaign promoting a new mens luxury brand. Can you provide a list of customers we should send to?
 
 **Stage 2** : *CLEAN* - Unhash the data (`/data/sample-data/test_data.zip`) using the secret key provided by us, extract it, most importantly clean it and put it in a form you can use - all programatically of course. We have also "intentionally" corrupted two columns in this file - two columns that might look correct but are not correct. They need "some correction" to be useful.
 
 **Stage 3** : *BUILD* - Build a model that suitably answers this question and predict the inferred gender using the features provided and deriving more featueres at your end. Remember, there is no gender flag, so you are flying blind here.
 
-**Stage 4** : *DELIVER* - Package all your process, findings and code into a reproducible document that can be understood by a business user. A repo of the code branch would be a great thing to have! This **reproducible report**\* must answer the following questions:
+**Stage 4** : *DELIVER* - Put all your process, findings and code into a **reproducible** package. A **repo** of the code branch would be a great thing to have! It must answer the following questions:
 
-1. How did you clean the data and what was wrong with it? Close to 90% of a Data Scientist's job is in cleaning data
+1. How did you clean the data and what was wrong with it? 
 2. What are the features you used as-is and which one did you engineer using the given ones? What do they mean in the real world?
-3. What does the output look like - how close is the accuracy of the prediction in light of data with labelled flags?
-4. What other features and variables can you think of, that can make this process more robust? Can you make a recommendation of top 5 features you'd seek to find apart from the ones given here
-5. Summarize your findings in an *executive summary*
+3. What does the output look like, and how accurate is it?
+4. What other features and variables can you think of, that can make this process more robust?
+5. Summarize your findings in an **executive summary** that's suitable for non-technical business stakeholders. 
 
 ## Evaluation
 
 We are looking for the following:
 
-1. You can write good quality SQL queries
-2. You clean the data - we expect to see how you identified and resolved the errors
-3. You make sensible decisions
-4. Your model achieves high accuracy on our held out labelled gender dataset
-5. Your findings, code and executive summary are packaged in an easily reproducible package - given dependencies and other instructions, we should be able to re-run your source code with the dataset in the same directory and obtain the same results and figures. Popular formats for this include RMarkdown and Jupyter Notebook (formerly IPython)
+1. You can write good quality SQL queries.
+2. You clean the data with good attention to details.
+3. You make sensible decisions.
+4. You modelling approach is sound and robust.
+5. Your findings, code and executive summary are packaged in an easily reproducible package - given dependencies and other instructions, we should be able to re-run your source code with the dataset in the same directory and obtain the same results and figures. 
 
 ## Data
 
@@ -67,11 +65,9 @@ Within the `/data/sample-data/` directory we have provided 2 files:
 1. For stage 1 we have included a SQLite database `test_data.db.zip`.
 2. For stages 2 - 4 we have included `test_data.zip` which contains the data in newline delimited json format.
 
-The files have been super encrypted - the password to the file is "an unserialized lowercase SHA-256 hash" of the keyword you received. Reminder the password to the file is not the keyword shared with you but the unserialized SHA-256 hash of the keyword.
+The files have been encrypted - the password to the file is "an unserialized lowercase SHA-256 hash" of the **password hint** you received. Reminder the password to the file is **not** the keyword shared with you but the unserialized SHA-256 hash of the keyword.
 
 The dataset comes from a simulated internal database which we use for assessing user behaviour. Users are randomly sampled and anonymised, along with programatically shifting all their behavioural metrics by set deviations.
-
-TL;DR - Don't worry, consider this dataset to be as close to reality as possible.
 
 The dataset is in a newline delimited JSON format, hashed and then compressed - so all the best!
 
@@ -121,4 +117,4 @@ The dataset is in a newline delimited JSON format, hashed and then compressed - 
 | average_discount_used    | float   | Average discount finally used on top of existing discount                |
 | revenue                  | float   | $ Dollar spent overall per person                                        |
 
-All the best! Blow us away with your findings and accuracy!
+All the best! Blow us away with your findings and models!
